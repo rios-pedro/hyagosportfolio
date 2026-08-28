@@ -21,7 +21,7 @@ function Header() {
       >
         <a href="#top" className="flex items-center gap-2">
           <img
-            src="/src/assets/img/logo.png"
+            src="/src/assets/img/logo.svg"
             alt="Hyago Souza"
             className="h-8 w-auto"
           />
@@ -30,7 +30,7 @@ function Header() {
         <ul className="hidden sm:flex items-center gap-6 font-body text-sm text-white/90">
           {navLinks.map((link) => (
             <li key={link.href}>
-              
+              <a
                 href={link.href}
                 className="transition-colors hover:text-babyblue"
               >
@@ -39,7 +39,7 @@ function Header() {
             </li>
           ))}
         </ul>
-
+<a
         
           href="#contato"
           className="hidden sm:inline-block rounded-full bg-babyblue text-neutral-950

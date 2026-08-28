@@ -44,7 +44,7 @@ function About() {
         >
           <div className="relative rounded-2xl overflow-hidden border border-white/10">
             <img
-              src="/src/assets/img/hyago.jpg"
+              src="/src/assets/img/hyago.jpeg"
               alt="Hyago Souza"
               className="w-full aspect-[4/5] object-cover"
             />

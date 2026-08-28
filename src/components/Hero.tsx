@@ -7,7 +7,7 @@ function Hero() {
       className="relative flex items-center justify-center min-h-screen overflow-hidden"
     >
       <img
-        src="/src/assets/img/hero.jpg"
+        src="/src/assets/img/hero.webp"
         alt="Hyago Souza"
         className="absolute inset-0 w-full h-full object-cover"
       />
