@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Identidade Visual — Projeto 1",
+    "description": "Breve descrição do projeto e do desafio criativo resolvido.",
+    "image": "/src/assets/img/projeto-1.jpg",
+    "tags": ["Branding", "Identidade Visual"],
+    "link": "https://www.behance.net/"
+  },
+  {
+    "id": 2,
+    "title": "UI Design — Projeto 2",
+    "description": "Breve descrição do projeto e do desafio criativo resolvido.",
+    "image": "/src/assets/img/projeto-2.jpg",
+    "tags": ["UI", "Web Design"],
+    "link": "https://www.behance.net/"
+  },
+  {
+    "id": 3,
+    "title": "Editorial — Projeto 3",
+    "description": "Breve descrição do projeto e do desafio criativo resolvido.",
+    "image": "/src/assets/img/projeto-3.jpg",
+    "tags": ["Editorial", "Print"],
+    "link": "https://www.behance.net/"
+  }
+]

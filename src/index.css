@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Archivo Black', sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --color-babyblue: #A8D5F2;
+  --color-babyblue-light: #D6EBFA;
+  --color-babyblue-dark: #6FB5E0;
+  --color-coral: #FFB4A2;
+  --color-lilac: #C8B6E2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  @apply bg-neutral-950 text-white;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
