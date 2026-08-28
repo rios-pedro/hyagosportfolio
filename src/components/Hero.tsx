@@ -6,17 +6,14 @@ function Hero() {
       id="hero"
       className="relative flex items-center justify-center min-h-screen overflow-hidden"
     >
-      {/* Imagem de fundo */}
       <img
-        src="/src/assets/img/hero.webp"
+        src="/src/assets/img/hero.jpg"
         alt="Hyago Souza"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Overlay escuro pra garantir contraste do texto */}
       <div className="absolute inset-0 bg-neutral-950/60" />
 
-      {/* Conteúdo */}
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}

@@ -21,18 +21,16 @@ function Header() {
       >
         <a href="#top" className="flex items-center gap-2">
           <img
-            src="/src/assets/img/logo.svg"
+            src="/src/assets/img/logo.png"
             alt="Hyago Souza"
             className="h-8 w-auto"
-            height="50%"
           />
         </a>
 
         <ul className="hidden sm:flex items-center gap-6 font-body text-sm text-white/90">
           {navLinks.map((link) => (
             <li key={link.href}>
-              {/* CORREÇÃO: Tag <a adicionada aqui */}
-              <a
+              
                 href={link.href}
                 className="transition-colors hover:text-babyblue"
               >
@@ -42,8 +40,7 @@ function Header() {
           ))}
         </ul>
 
-        {/* CORREÇÃO: Tag <a adicionada aqui */}
-        <a
+        
           href="#contato"
           className="hidden sm:inline-block rounded-full bg-babyblue text-neutral-950
                      text-sm font-semibold px-4 py-1.5 transition-colors
@@ -52,7 +49,6 @@ function Header() {
           Vamos falar
         </a>
 
-        {/* Menu mobile simples, sem toggle por enquanto */}
         <button className="sm:hidden text-white/90" aria-label="Abrir menu">
           ☰
         </button>

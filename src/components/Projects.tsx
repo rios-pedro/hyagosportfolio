@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectsCard";
-import projects from "../data/projects.json";
+import projectsData from "../data/projects.json";
+import type { Project } from "../types";
+
+const projects = projectsData as Project[];
 
 function Projects() {
   return (
@@ -12,9 +15,7 @@ function Projects() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="max-w-2xl mb-14"
       >
-        <h2 className="font-display text-3xl sm:text-4xl mb-4">
-          Projetos
-        </h2>
+        <h2 className="font-display text-3xl sm:text-4xl mb-4">Projetos</h2>
         <p className="font-body text-white/70 leading-relaxed">
           {/* [EDITAR: texto sobre a história do Hyago] */}
           Ao longo da trajetória, cada projeto carrega um pouco da forma como
