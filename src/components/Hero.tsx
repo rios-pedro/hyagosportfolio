@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import heroMp4 from "../assets/media/hero.mp4";
 
 function Hero() {
   return (
@@ -6,11 +7,16 @@ function Hero() {
       id="hero"
       className="relative flex items-center justify-center min-h-screen overflow-hidden"
     >
-      <img
-        src="/src/assets/img/hero.webp"
-        alt="Hyago Souza"
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute inset-0 w-full h-full object-cover"
-      />
+      >
+        {/* <source src="/src/assets/img/hero.webm" type="video/webm" /> */}
+        <source src={heroMp4} type="video/mp4" />
+      </video>
 
       <div className="absolute inset-0 bg-neutral-950/60" />
 

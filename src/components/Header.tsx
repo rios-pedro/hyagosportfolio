@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logoSvg from "../assets/img/logo.svg";
 
 const navLinks = [
   { label: "Projetos", href: "#projetos" },
@@ -21,7 +22,7 @@ function Header() {
       >
         <a href="#top" className="flex items-center gap-2">
           <img
-            src="/src/assets/img/logo.svg"
+            src={logoSvg}
             alt="Hyago Souza"
             className="h-8 w-auto"
           />
