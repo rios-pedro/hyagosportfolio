@@ -1,6 +1,11 @@
 import { motion } from "framer-motion";
 
-function ProjectCard({ project, index }) {
+interface ProjectCardProps {
+  project: Project;
+  index: number;
+}
+
+function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <motion.a
       href={project.link}
@@ -25,9 +30,7 @@ function ProjectCard({ project, index }) {
       </div>
 
       <div className="p-5">
-        <h3 className="font-display text-lg leading-snug">
-          {project.title}
-        </h3>
+        <h3 className="font-display text-lg leading-snug">{project.title}</h3>
         <p className="font-body text-white/70 text-sm mt-2">
           {project.description}
         </p>
