@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import hyagoSouza from "../assets/img/hyago.jpeg";
 
 function About() {
   return (
@@ -44,7 +45,7 @@ function About() {
         >
           <div className="relative rounded-2xl overflow-hidden border border-white/10">
             <img
-              src="/src/assets/img/hyago.jpeg"
+              src={hyagoSouza}
               alt="Hyago Souza"
               className="w-full aspect-[4/5] object-cover"
             />
