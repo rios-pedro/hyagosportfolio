@@ -4,7 +4,7 @@ import logoSvg from "../assets/img/logo.svg";
 const navLinks = [
   { label: "Projetos", href: "#projetos" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Trabalhe comigo", href: "#contato" },
+  { label: "Contato ", href: "#contato" },
 ];
 
 function Header() {
@@ -42,12 +42,12 @@ function Header() {
         </ul>
 <a
         
-          href="#contato"
+          href="https://w.app/isrdz5"
           className="hidden sm:inline-block rounded-full bg-babyblue text-neutral-950
                      text-sm font-semibold px-4 py-1.5 transition-colors
                      hover:bg-babyblue-light"
         >
-          Vamos falar
+          Fale comigo
         </a>
 
         <button className="sm:hidden text-white/90" aria-label="Abrir menu">

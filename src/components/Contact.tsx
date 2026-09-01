@@ -21,13 +21,23 @@ function Contact() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <motion.a
-            href="mailto:hyago@email.com"
+            href="mailto:hyago.souzaxd@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             className="w-full sm:w-auto rounded-full bg-babyblue text-neutral-950
                        font-semibold px-6 py-3 transition-colors hover:bg-babyblue-light"
           >
-            hyago@email.com
+            hyago.souzaxd@gmail.com
+          </motion.a>
+
+          <motion.a
+            href="https://w.app/isrdz5"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.97 }}
+            className="w-full sm:w-auto rounded-full bg-babyblue text-neutral-950
+                       font-semibold px-6 py-3 transition-colors hover:bg-babyblue-light"
+          >
+            Whatsapp
           </motion.a>
 
           <motion.a
@@ -45,8 +55,21 @@ function Contact() {
       </motion.div>
 
       <footer className="mt-24 text-center text-white/40 text-xs font-body">
-        © {new Date().getFullYear()} Hyago Souza. Todos os direitos reservados.
-      </footer>
+  © {new Date().getFullYear()} Hyago Souza. Todos os direitos reservados.
+  <br className="sm:hidden" />
+  <span className="sm:ml-1">
+    Site desenvolvido por{" "}
+    <a
+      href="https://pedroriosdev.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-babyblue-light hover:underline"
+      >
+    
+      Pedro Rios
+    </a>
+  </span>
+</footer>
     </section>
   );
 }
