@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../assets/img/logoAzul.svg";
 
 function LoadingScreen() {
   return (
@@ -10,7 +11,7 @@ function LoadingScreen() {
     >
       <div className="flex flex-col items-center gap-6">
         <motion.img
-          src="/public/logoAzul.svg"
+          src={logo}
           alt="Hyago Souza"
           className="h-10 w-auto"
           initial={{ opacity: 0.4, scale: 0.95 }}
